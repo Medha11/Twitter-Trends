@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Trends</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- stylesheet css -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/templatemo-blue.css' %}" type="text/css"/>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+<div class="container" style="margin-left: 0px; width:100%">
+    <div class="row">
+        <div class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a rel="home" href="#"
+                   style="padding-top:20px;padding-left:20px; text-align: center;font-size: 40px;color: #FFFFFF; font-family: '._LANENAR_-webfont';">Trends</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="col-sm-6 col-md-6">
+                    <form class="navbar-form" role="search" method="get" id="search-form" name="search-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" id="query" name="query"
+                                   value="">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-success"
+                                        style="background-color:#FFFFFF;border-color:transparent;"><span class="icon"><i
+                                        class="fa fa-search" style="color:#000;"></i></span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- preloader section -->
+<div class="preloader">
+    <div class="sk-spinner sk-spinner-wordpress">
+        <span class="sk-inner-circle"></span>
+    </div>
+</div>
+<!-- header section 
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <img src="{% static "images/logo.png" %}" class="img-responsive img-circle tm-border" alt="templatemo easy profile" style="width: 75px;"/>
+                <hr>
+                <h1 class="tm-title bold shadow" style="font-size: 72px;">Welcome to Trends</h1>
+                <h1 class="white bold shadow">Your one-stop shop for all that is trending around the world.</h1>
+                <div class="box" style = "padding-top:160px;">
+                    <div class="container-1">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+-->
+<!-- about and skills section -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="about" style="height: 350px;margin-top: 50px;">
+                <h2 class="accent"
+                    style="padding-bottom:20px;margin-top:30px;font-family: 'ProximaNova-Regular';color: #3366CC;">
+                    Info</h2>
+                <p>
+                    Want to know which are the most popular topics people are talking about??
+                </p>
+                <p>
+                    Have a look at the top trending topics alongwith their trends map, extracted by analysing recent
+                    tweets.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="Interests" style="height: 350px;font-family: 'ProximaNova-Regular';margin-top: 50px;">
+                <h2 class="white">Interests</h2>
+                <div>
+                    <input type="checkbox" id="finance" name="finance">
+                    <label for="finance">Finance</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="politics" name="politics">
+                    <label for="politics">Politics</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sports" name="sports">
+                    <label for="sports">Sports</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="technology" name="technology">
+                    <label for="technology">Technology</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- word cloud -->
+<section class="container">
+<h2 class="accent" style="margin-top:30px;font-family: 'ProximaNova-Regular';color: #3366CC;">
+                    Trending topics</h2>
+    <div class="row">
+        {% for topic in topics %}
+            <div class="col-md-6 col-sm-12">
+                <div class="about" style="margin-top: 50px;">
+                    <a href="{% url 'detail' topic %}">
+                        <img src="{% static '' %}wordclouds/cloud{{ topic }}.png"
+                             style="margin-left:0px;width:500px;height:333px;">
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- contact and experience
+<section class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="contact">
+                <h2>Contact</h2>
+                    <p><i class="fa fa-map-marker"></i> 123 Rama IX Road, Bangkok</p>
+                    <p><i class="fa fa-phone"></i> 010-020-0890</p>
+                    <p><i class="fa fa-envelope"></i> easy@company.com</p>
+                    <p><i class="fa fa-globe"></i> www.company.com</p>
+            </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <div class="experience">
+                <h2 class="white">Experiences</h2>
+                    <div class="experience-content">
+                        <h4 class="experience-title accent">Website Development</h4>
+                        <h5>New Media Company</h5><span></span>
+                        <h5>2035 January - 2036 April</h5>
+                        <p class="education-description">Cras porta tincidunt sem, in sollicitudin lorem efficitur ut. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- footer section -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12" style="color:#3366CC;">
+                <p>Created by students of MNNIT Allahabad</p>
+                <ul class="social-icons">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- javascript js -->
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.backstretch.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>

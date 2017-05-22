@@ -1,0 +1,34 @@
+Top 20 Word - Probability:
+love-0.0674940784904
+follow-0.045384565459
+mind-0.0347472342781
+following-0.0300801712508
+please-0.0254927536503
+hope-0.016823678726
+happy-0.0124996441862
+life-0.0121571804514
+smile-0.0107044126815
+heart-0.0105425729481
+happiness-0.0104054518203
+world-0.00851490566741
+person-0.00839259387628
+everything-0.00704903247566
+dream-0.00680579951388
+angel-0.00670807872528
+birthday-0.00650932267356
+beautiful-0.00647401160567
+never-0.00646009095755
+making-0.00615619599105
+
+Top tweet:
+pretty soul, pure mind
+golden heαrt, αll combined
+the reαson for my heαrt beating
+i'll love you till i stop breαthing
+@Harry_Styles 254,558
+
+Entities:
+@Harry_Styles
+@ArianaGrande
+#ALDUBProblemaNiLola
+#DolceAmoreSayIt

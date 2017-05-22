@@ -1,0 +1,33 @@
+Top 20 Word - Probability:
+feelthebern-0.0305016787194
+bernie-0.014602788972
+wyoming-0.0133571494012
+vote-0.00962888178965
+wycaucus-0.00807900847216
+win-0.00793146527726
+hillary-0.00678383683608
+people-0.00635502645153
+clinton-0.00569514770063
+sanders-0.00556477626643
+nyprimary-0.00551080901346
+campaign-0.00517862593481
+help-0.00440660933432
+caucus-0.00416094042488
+wins-0.00413646490103
+wyomingcaucus-0.00407093555146
+delegates-0.00391965052823
+york-0.00390691846666
+apollo-0.00378626079619
+please-0.00377599030634
+
+Top tweet:
+@realDonaldTrump Trump!!!  He will CUT THIS BIG COrrupt GOVT, must cut govt!!  Big pay with big pensions.  govt employees must pay in more!!
+
+Entities:
+@HillaryClinton
+#resigncameron
+#Trump
+#PanamaPapers
+@BernieSanders
+@realDonaldTrump
+#FeelTheBern

@@ -1,0 +1,367 @@
+
+        #outlook a{padding:0;}
+        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}                
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+        body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+        img{-ms-interpolation-mode:bicubic;}
+        body{margin:0; padding:0;}
+        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+        body{height:100% !important; margin:0; padding:0; width:100% !important;background-color:#f9fafa;}
+            
+        .appleLink a { color: #6e7376 !important; text-decoration: none !important; }
+        .appleFooter a { color: #827c8f !important; text-decoration: none !important; }
+            
+        @media screen {
+
+            
+            
+        .logo-pad-top {
+            padding-top: 18% !important;
+        }
+
+
+        .cta:hover {
+            border: 3px solid #7fbbc0 !important;
+        }
+
+        .bg {
+            border: none !important;
+            background-position: bottom !important;
+        }
+            
+        .gmail-show {
+        	width: 0px;
+            height: 0px;
+            max-width: 0px;
+            max-height: 0px;
+            overflow: hidden;
+            mso-hide: all;
+            display: none;
+        }
+            
+        .gmail-hide {
+            width: 100% !important;
+            height: auto !important;
+            max-height: 25px !important;
+            overflow: visible !important;
+            display: block !important;
+        }
+
+        .ExternalClass .ecxbg {
+            background-color: #e74c3c;
+            height: 330px !important;
+            min-height: 330px !important;
+            max-height: 330px !important;
+        }
+
+        .ExternalClass .ecxlogo-pad-top {
+            padding: 50px 0 !important;
+        }
+            
+        @media yahoo {
+            .logo-pad-top {
+                padding-top: 150px !important;
+            }
+            .bg {
+                border: 0px !important;
+                min-height: 800px !important;
+            }
+            .cta {
+                display: inline !important;
+            }
+        }
+
+        @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            .webkit-hide {
+                display: none;
+            }
+
+            #font-weight-normal {
+                font-weight: normal !important;
+            }
+
+            .headline-pad {
+                padding-top: 0px !important;
+            }
+
+            .wrapper {
+                position: relative;
+                height: 500px;
+                overflow: hidden;
+
+            }
+
+            .wrapper::after {
+                bottom: 0px;
+                background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+                background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+                background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+                content: "";
+                display: block;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                height: 30px;
+                z-index: 10;
+            }
+
+            .tweet {
+                background-color: #ffffff;
+                width: 450px;
+                border-radius: 4px;
+                padding: 20px;
+                margin-left: 50px;
+                display: table;
+                border: 3px solid #333333;
+                position: relative;
+                box-sizing: border-box;
+            }
+
+            .slide {
+                margin-top: -100%;
+                opacity: 0;
+                -webkit-animation: slide 2s ease-in-out forwards, appear 3s ease-in-out forwards;
+            }
+
+            .tweet-container { 
+              overflow: hidden;
+              position: relative;
+              margin: 0 auto;
+            }
+
+            
+            #slide-1{
+                -webkit-animation-delay: 3s;
+            }
+
+
+
+
+            @-webkit-keyframes slide {
+              to { margin-top: 10px; }
+            }
+
+            @-webkit-keyframes appear {
+              to { opacity: 1 }
+            }
+
+            .tweet:hover {
+                cursor: pointer;
+                border-color: #7fbbc0;
+            }
+
+            .tweet-avatar-wrapper {
+                width: 70px;
+                float: left;
+            }
+
+            .tweet-wrapper {
+                width: 330px;
+                float: left;
+            }
+
+            .avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 5px;
+                margin-top: 5px;
+                background-size: cover !important;
+            }
+
+            .name {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 25px;
+                color: #111111;
+            }
+
+            .handle {
+                color: #7fbbc0;
+                display: inline-block;
+                margin-left: 3px;
+            }
+
+            .copy {
+                color: #666666;
+                margin-top: 5px;
+                display: block;
+            }
+            
+            .timestamp {
+                color: #999999;
+                margin-left: 3px;
+                display: inline-block;
+            }
+
+            .timestamp::before {
+                content: '\2022';
+                margin-right: 5px;
+            }
+
+            .name, .handle, .copy, .timestamp {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .logo-pad-top {
+                padding-top: 25% !important;
+            }
+
+            .bg {
+                min-height: 600px !important;
+            }
+            .logo {
+                width: 85%;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .logo-pad-top {
+                padding-top: 30% !important;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .responsive-table {
+                width: 100% !important;
+                padding: 0 5%;
+            }
+
+            .responsive-table2 {
+                width: 48% !important;
+            }
+
+            .mobile-pad {
+                padding: 0 5%;
+            }
+
+            .img-max {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            .wrapper {
+                height: 375px;
+            }
+
+            .tweet, .tweet-cta {
+                width: 100%;
+            }
+
+            .tweet {
+                padding: 10px;
+            }
+
+            .tweet-avatar-wrapper {
+                width: 15%;
+            }
+
+            .tweet-wrapper {
+                width: 85%;
+            }
+
+            .bg {
+                min-height: 450px !important; 
+            }
+
+            .logo-pad-top {
+                padding-top: 25% !important;
+            }
+
+            .photo {
+                width: 100%
+            }
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .logo {
+                display: none !important;
+            }
+
+            .logo2 {
+                display: block !important;
+                width: 55% !important;
+                height: auto !important;
+                min-width: 160px !important;
+            }
+
+            .logo-pad-top {
+                padding-top: 10% !important;
+            }
+
+            .headline-pad {
+                padding-top: 0px !important;
+            }
+
+            .bg {
+                min-height: 370px !important; 
+            }
+
+            .cities {
+                width: 60%;
+                height: auto;
+            }
+
+            .tweet-avatar-wrapper {
+                max-width: 45px;
+            }
+
+            .tweet, .tweet-cta {
+                  border: 2px solid #333;
+            }
+
+            .avatar {
+                height: 30px;
+                width: 30px;
+            }
+
+            .timestamp {
+                display: block;
+                margin-left: 0;
+            }
+
+            .lines {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            .photo {
+                height: 100px;
+            }
+
+        }
+
+        @media screen and (max-width: 375px) {
+            .bg {
+                min-height: 280px !important; 
+            }
+
+            .mtop50 {
+                margin-top: 50px !important;
+            }
+
+            .responsive-table2 {
+                width: 100% !important;
+            }
+
+            .cities {
+                width: 40%;
+                height: auto;
+            }
+
+            .lines {
+                width: 200px !important;
+                height: auto !important;
+            }
+        }
+        

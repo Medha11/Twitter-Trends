@@ -1,0 +1,37 @@
+Top 20 Word - Probability:
+vote-0.146629676359
+youknowyoulovethem-0.0922459004719
+sofantastic-0.0682022542394
+directioners-0.06716568197
+onedirection-0.0671373645273
+direction-0.046927796616
+oned-0.011195542787
+cool-0.0111170555791
+slaves-0.00878739761099
+perfect-0.00857471423587
+xoxo-0.00775182038526
+fifthharmony-0.00665347313426
+mon-0.0063517922293
+harmonizers-0.00598579433642
+justin-0.00591254233631
+thatsmyjam-0.005885470468
+love-0.00585048988286
+beliebers-0.00584306567676
+fifth-0.00581253076605
+harmony-0.00574194803238
+
+Top tweet:
+RET TO VOTE
+RET TO VOTE
+RET PARA VOTAR
+RET TO VOTE
+RET PARA VOTAR
+I vote for #Swifties - Taylor Swift #SoFantastic @radiodisney
+
+Entities:
+#SoFantastic
+#OneDirection
+@radiodisney
+#YouKnowYouLoveThem
+#R5
+#Directioners

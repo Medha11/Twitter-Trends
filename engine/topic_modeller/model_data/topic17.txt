@@ -1,0 +1,30 @@
+Top 20 Word - Probability:
+video-0.0994165176246
+liked-0.0720117101664
+soundcloud-0.0295599803169
+playlist-0.018200003736
+listen-0.0175869620525
+added-0.0174883060924
+heard-0.00740017038156
+prod-0.00550676683908
+music-0.00444822658827
+part-0.00436282370617
+official-0.00406155135755
+black-0.00346999428131
+remix-0.00309422883944
+feat-0.00290446502746
+love-0.00283638138004
+episode-0.00262616508164
+favorite-0.00253854291875
+minecraft-0.00252765929168
+ops-0.00231317925316
+faze-0.0021718409565
+
+Top tweet:
+Bir @YouTube videosu beğendim: https://t.co/lNoBVsvAZT 30 Surprise Eggs Peppa Pig Paw Patrol Mickey Mouse Barbie Hello Kitty Opening
+
+Entities:
+@YouTube
+#music
+#np
+#SoundCloud

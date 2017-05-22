@@ -1,0 +1,30 @@
+Top 20 Word - Probability:
+found-0.0592520513862
+snail-0.05802690283
+trecru-0.0579990193292
+transponder-0.0579897223412
+drmsgtrueguide-0.0465109753697
+prevailateneo-0.0200401513664
+amazing-0.0126823405196
+giants-0.0120152661789
+look-0.0106880938233
+sea-0.00989130150682
+monsters-0.0097252568692
+encounters-0.00969532720453
+inside-0.00958571806004
+exclusive-0.00950989665647
+shots-0.00802336576201
+hats-0.00765900180717
+straw-0.00725086573907
+guru-0.00619871988245
+humanity-0.00610271983769
+msgsays-0.00606026943756
+
+Top tweet:
+@Gurmeetramrahim G😍😍d nini ppa👑dhan dhan satguru Tera hi aasra☺plz cm in my drms n my home n show me ryt path😘 #MSGsays lov u a lot😍😘😍
+
+Entities:
+#MSGsays
+@Gurmeetramrahim
+#TreCru
+#DrMSGTrueGuide
