@@ -1,14 +1,4 @@
-# TODO
-* **Read the plan below and discuss.**
-* **Choose a module from the [Issues section](https://github.com/rohittjob/Trends/issues).**
-* **Assign the chosen module to yourself so others know you are working on it.**
-* **Implement the module in the corresponding files, details given in comments**
-* **Write your assumptions like input etc. and a brief of how you've gone about in the comment on top so that it'll be easier to collaborate**
-* **Once you complete implementation, push your code, close the issue and choose a new issue**
-* Any doubts let me know. Happy coding :)
-* P.S we need to finish all this by 1st April.
-
-# The New Plan
+# Plan
 
 * First extractor extracts tweets as usual.
 * Tweets are cleaned and dumped into MongoDB.
